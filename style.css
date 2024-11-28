@@ -1,0 +1,119 @@
+body {
+  color: rgb(30, 30, 30);
+  background-color: rgb(230, 230, 230);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+h1,h2,h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+
+h1 {
+  color: rgb(193, 41, 46);
+  font-size: 30px;
+}
+
+
+h2,h3 {
+  color: rgb(20, 129, 186);
+  font-size: 20px;
+}
+
+
+a {
+  color: #C19AB7;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+
+a:hover {
+  color: black;
+}
+
+div {
+  width: 600px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.div-classic{
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+  margin: 50px Opx;
+}
+
+.div-classic:hover{
+  background: rgb(245,245,245);
+}
+
+.img-circle{
+  border-radius: 250px;
+}
+
+.btn-gray{
+  background: rgb(230,230,230);
+  color: rgb(40,40,40);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-gray:hover{
+  background: black;
+  color: white;
+}
+
+.list-align{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-align li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-align i{
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+
+.list-align i:hover {
+  color: black;
+}
+
+#specific{
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 700px;
+  margin: 80px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+}
